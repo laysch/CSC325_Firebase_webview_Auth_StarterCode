@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="files.SplashScreen">
+   <children>
+      <ToggleButton fx:id="continueButton" alignment="CENTER_RIGHT" layoutX="273.0" layoutY="214.0" mnemonicParsing="false" text="continue">
+         <effect>
+            <ColorAdjust />
+         </effect>
+      </ToggleButton>
+      <Text layoutX="153.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello There!" textAlignment="CENTER" wrappingWidth="305.97119140625">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

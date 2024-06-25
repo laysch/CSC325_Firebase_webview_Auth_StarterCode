@@ -1,0 +1,6 @@
+dependencies {
+    //firebase libraries
+    implementation 'com.google.firebase:firebase-analytics:17.6.0'
+    implementation 'com.google.firebase:firebase-auth:20.3.0'
+    implementation 'com.google.firebase:firebase-database:19.5.1'
+}
